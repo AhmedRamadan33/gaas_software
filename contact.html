@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="img/Screenshot_10.png"
+    />
+    <title>GaaS Software</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="img/download.webp" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feature.html">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Pricing.html">pricing</a>
+              </li>
+              <li class="nav-item mainMenu">
+                <a class="nav-link" href="#">pages</a>
+                <div class="menu">
+                  <a href="#">elements</a>
+                </div>
+              </li>
+              <li class="nav-item mainMenu">
+                <a class="nav-link" href="#">Blog</a>
+                <div class="menu">
+                  <a href="#">blog</a>
+                  <a href="">blog details </a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right d-none d-lg-block">
+              <li class="nav-item">
+                <a href="#" class="primary_btn text-uppercase">free trial</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ///////////////////////// -->
+    <section class="exclusive_features p-70">
+      <div class="container">
+        <div class="row">
+          <div class="pages">
+            <a href="index.html">Home</a>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+            <a href="contact.html">Contact</a>
+            <h2>Contact US</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ///////////////////// -->
+    <section class="about p-70">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.60389525356!2d31.328505268401845!3d30.059618470532715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2z2KfZhNmC2KfZh9ix2KnYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1662489420546!5m2!1sar!2seg"style="border:0"allowfullscreen=""loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="row mt-5">
+          <div class="col-lg-3">
+            <div class="contact_info">
+              <div class="info_item">
+                <h6>
+                  <span><i class="fa-solid fa-house-user"></i></span>
+                  California, United States</h6>
+                <p>Santa monica bullevard</p>
+              </div>
+              <div class="info_item">
+                <h6>
+                  <span><i class="fa-solid fa-phone"></i></span>
+                  00(440) 9865 562</h6>
+                <p>Mon to Fri 9am to 6 pm</p>
+              </div>
+              <div class="info_item">
+                <h6>
+                  <span><i class="fa-solid fa-envelope"></i></span>
+                  support@colorlib.com</h6>
+                <p>Send us your query anytime!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <form class="row contact_form"action="contact_process.php"method="post"id="contactForm"novalidate="novalidate">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text"class="form-control"id="name"name="name"placeholder="Enter your name"/>
+                </div>
+                <div class="form-group"><input type="email"class="form-control"id="email"name="email"placeholder="Enter email address"/>
+                </div>
+                <div class="form-group"><input type="text"class="form-control"id="subject"name="subject"placeholder="Enter Subject"/>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group"><textarea class="form-control"name="message"id="message"rows="5"placeholder="Enter Message"></textarea>
+                </div>
+              </div>
+              <div class="col-md-12 text-right">
+                <button type="submit" value="submit" class="primary_btn">
+                  <span>Send Message</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ////////////////////////// -->
+    <footer class="footer p-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <h3>About Me</h3>
+            <p>
+              Do you want to be even more successful? Learn to love learning and
+              growth. The more effort you put into improving your skills,
+            </p>
+            <p>
+              Copyright ©2022 All rights reserved | This template is made with
+              <i class="fa-regular fa-heart"></i> by
+              <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            </p>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <h3>Newsletter</h3>
+            <p>Stay updated with our latest trends</p>
+            <form action="">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email Address"
+                />
+                <button class="btn">
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-2">
+            <h3>Follow Me</h3>
+            <p>Let us be social</p>
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+              <a href="#"><i class="fa-brands fa-behance"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /////////////////////////////////////////// -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
